@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+//本地提交2
 @RestController
 @Api(tags = "用户管理接口")
 @RequestMapping(value = "api/user",produces = "application/json")
