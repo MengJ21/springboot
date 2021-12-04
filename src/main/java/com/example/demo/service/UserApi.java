@@ -16,6 +16,7 @@ import java.util.List;
 @Api(tags = "用户管理接口")
 @RequestMapping(value = "api/user",produces = "application/json")
 @CrossOrigin(origins = "http://localhost:8081",maxAge = 3600)
+//本地提交3
 public class UserApi {
     @Autowired
     private IUserDao uerdao;
