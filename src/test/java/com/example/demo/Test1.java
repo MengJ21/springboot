@@ -57,7 +57,7 @@ public class Test1 {
     @Test
     public void FindUsers(){
         List<Product> uList=productDao.getProductsLargerThanPrice(80);
-        System.out.println();
+        System.out.println(uList);
     }
     @Test
     public void updateUser(){
